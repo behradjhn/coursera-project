@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+H2{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    
+}
+#box{
+    width: 350px;
+    height: 150px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: cadetblue;
+    font-family: arial;
+}
+#text{
+    font-size: 15px bold;
+    border: 1px solid black;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+}
+@media (min-width:820px) and (max-width:1180px){
+.box3{
+width: 80%;
+height: 300px;
+}
+}
+@media (min-width:390px) and (max-width:767px){
+.box3 .box2 .box1{
+width: 80%;
+height: 300px;
+}
+}
